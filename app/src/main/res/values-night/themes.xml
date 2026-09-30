@@ -1,12 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Dark mode version of the theme. Same names as values/themes.xml,
-         Android picks this file automatically when the phone is in dark mode. -->
     <style name="Base.Theme.SmartPantry" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/brand_primary</item>
         <item name="colorOnPrimary">@android:color/white</item>
         <item name="colorSecondaryContainer">@color/brand_primary_dark</item>
         <item name="android:windowBackground">@color/app_background</item>
-        <item name="android:textColorPrimary">@color/text_primary</item>
-        <item name="android:textColorHint">@color/text_secondary</item>
     </style>
+
+    <style name="Theme.SmartPantry" parent="Base.Theme.SmartPantry" />
 </resources>

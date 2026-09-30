@@ -1,11 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Day/Night theme: red buttons; colours come from colors_pantry.xml (light) or values-night (dark) -->
     <style name="Base.Theme.SmartPantry" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/brand_primary</item>
         <item name="colorOnPrimary">@android:color/white</item>
         <item name="colorSecondaryContainer">@color/brand_primary_dark</item>
         <item name="android:windowBackground">@color/app_background</item>
-        <item name="android:textColorPrimary">@color/text_primary</item>
     </style>
 
     <style name="Theme.SmartPantry" parent="Base.Theme.SmartPantry" />

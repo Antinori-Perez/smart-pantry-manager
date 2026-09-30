@@ -10,6 +10,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class AddEditIngredientActivity extends AppCompatActivity {
 
+    public static final String EXTRA_ITEM_ID = "com.example.smartpantry.EXTRA_ITEM_ID";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
